@@ -1,13 +1,10 @@
 import React from 'react'
-import { FaBed } from "react-icons/fa6";
-
-
-import { IoIosArrowForward } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
-import { MdMail } from "react-icons/md";
+import { IoIosArrowForward } from "react-icons/io";
+import { FaBed } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa";
-
-import Link from "next/link";
+import { MdMail } from "react-icons/md";
+import Link from 'next/link';
 export default function Footer() {
   return (
     <>
@@ -24,7 +21,7 @@ export default function Footer() {
               Company
             </div>
             <div className="pt-4 flex justify-start items-center">
-              <p> <IoIosArrowForward /> </p><p className="pl-3"><Link href="/about">About Us</Link></p>
+              <p> <IoIosArrowForward /> </p><p className="pl-3"><Link href="/about"> About</Link></p>
             </div>
             <div className=" flex justify-start items-center">
               <p> <IoIosArrowForward /> </p><p className="pl-3">Service</p>
