@@ -10,17 +10,17 @@ export default function Featured() {
         <div className="text-center text-gray-900  text-5xl py-10 ">
           <p ><b>Featured Properties</b></p>
         </div>
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mb-20 pb-10">
-          <div>
-            <img src="2.jpg"></img>
-            <p className=" py-5" >710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</p>
-            <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mb-20 pb-10 ">
+          <div className='border-2 border-gray-100 rounded-t-3xl hover:shadow-xl'>
+            <img src="2.jpg" className="rounded-t-3xl"></img>
+            <p className=" py-5 w-11/12 mx-auto" >710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</p>
+            <div className="grid grid-cols-3 w-11/12 mx-auto">
               <div className="flex justify-start items-center "><LuShrink size={25} /><p className="pl-2">8000 sqf</p> </div>
               <div className="flex justify-start items-center"><FaBed size={25} /> <p className="pl-2">4 Beds</p> </div>
               <div className="flex justify-start items-center "><MdOutlineBathtub size={25} /><p className="pl-2">4 Baths</p> </div>
 
             </div>
-            <div className="grid grid-cols-2 py-4">
+            <div className="grid grid-cols-2 mb-5 py-4 w-11/12 mx-auto">
               <div>
                 <div>Price</div>
                 <div>$450</div>
@@ -42,16 +42,16 @@ export default function Featured() {
             </div>
 
           </div>
-          <div>
-            <img src="2.jpg"></img>
-            <p className=" py-5" >710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</p>
-            <div className="grid grid-cols-3">
+          <div className='border-2 border-gray-100 rounded-t-3xl  hover:shadow-xl'>
+            <img src="2.jpg" className="rounded-t-3xl"></img>
+            <p className=" py-5 w-11/12 mx-auto" >710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</p>
+            <div className="grid grid-cols-3 w-11/12 mx-auto">
               <div className="flex justify-start items-center "><LuShrink size={25} /><p className="pl-2">8000 sqf</p> </div>
               <div className="flex justify-start items-center"><FaBed size={25} /> <p className="pl-2">4 Beds</p> </div>
               <div className="flex justify-start items-center "><MdOutlineBathtub size={25} /><p className="pl-2">4 Baths</p> </div>
 
             </div>
-            <div className="grid grid-cols-2 py-4">
+            <div className="grid grid-cols-2 mb-5 py-4 w-11/12 mx-auto">
               <div>
                 <div>Price</div>
                 <div>$450</div>
@@ -71,18 +71,18 @@ export default function Featured() {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div>
-            <img src="2.jpg"></img>
-            <p className=" py-5" >710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</p>
-            <div className="grid grid-cols-3">
+          </div>
+          <div className='border-2 border-gray-100 rounded-t-3xl  hover:shadow-xl '>
+            <img src="2.jpg" className="rounded-t-3xl"></img>
+            <p className=" py-5 w-11/12 mx-auto" >710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</p>
+            <div className="grid grid-cols-3 w-11/12 mx-auto">
               <div className="flex justify-start items-center "><LuShrink size={25} /><p className="pl-2">8000 sqf</p> </div>
               <div className="flex justify-start items-center"><FaBed size={25} /> <p className="pl-2">4 Beds</p> </div>
               <div className="flex justify-start items-center "><MdOutlineBathtub size={25} /><p className="pl-2">4 Baths</p> </div>
 
             </div>
-            <div className="grid grid-cols-2 py-4">
+            <div className="grid grid-cols-2 mb-5 py-4 w-11/12 mx-auto">
               <div>
                 <div>Price</div>
                 <div>$450</div>
@@ -102,8 +102,11 @@ export default function Featured() {
                 </div>
               </div>
             </div>
+
           </div>
+         
         </div>
+        
         {/* end */}
       </div>
   )

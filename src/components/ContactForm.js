@@ -4,7 +4,7 @@ export default function ContactForm() {
   return (
     <div className='grid grid-cols-1 gap-6 md:grid-cols-5 place-content-center w-4/5 mx-auto '>
     <div className="col-span-3 ">
-        <img src="8074.png" className='rounded'></img>
+        <img src="8074.png" className='rounded-t-3xl'></img>
     </div>
     <div className='flex md:justify-start justify-center items-center col-span-2'> <form className="w-4/5 ">
     <p className="text-4xl mb-5 bloack">Get in Touch!</p>

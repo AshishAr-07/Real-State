@@ -15,8 +15,6 @@ export default function ContactDetails() {
             <p><MdMail size={50}/></p>
             <p className='text-3xl'>Drop us a Line</p>
             <p className='text-xl'>contact@gmail.com
-
-
 </p>
         </div>
         <div className='flex flex-col gap-4 justify-center items-center'>
