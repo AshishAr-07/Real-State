@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Work() {
   return (
-    <div className="w-11/12 md:w-3/4 mx-auto py-10">
+    <div className="max-w-screen-xl mx-auto py-10">
     {/* It work section */}
     <div className="mt-10 pt-10 ">
       <div className="text-center text-gray-900  text-5xl ">

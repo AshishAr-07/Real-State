@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 export default function Hero() {
   return (
 <div className=" bg-[url('/tailbanner.png')] bg-no-repeat bg-cover pt-10 pb-20">
-     <Navbar />
+     {/* <Navbar /> */}
      <div className="flex justify-center items-center text-white font-bold text-5xl mt-[18vh]">
        Easy way to find your
 

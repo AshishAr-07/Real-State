@@ -4,8 +4,8 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { MdMail } from "react-icons/md";
 export default function ContactDetails() {
   return (
-    <>
-    <div className='grid grid-cols-1 md:grid-cols-3 py-20 '>
+   <div className='max-w-screen-xl mx-auto'>
+<div className='grid grid-cols-1 md:grid-cols-3 py-20 '>
         <div className='flex flex-col gap-4 justify-center items-center'>
             <p><FaPhoneAlt size={50}  /></p>
             <p className='text-3xl'>Give us a Call</p>
@@ -15,6 +15,8 @@ export default function ContactDetails() {
             <p><MdMail size={50}/></p>
             <p className='text-3xl'>Drop us a Line</p>
             <p className='text-xl'>contact@gmail.com
+
+
 </p>
         </div>
         <div className='flex flex-col gap-4 justify-center items-center'>
@@ -24,6 +26,8 @@ export default function ContactDetails() {
         </div>
 
     </div>
-    </>
+    </div>
+    
+    
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div className="w-11/12 md:w-3/4 mx-auto">
+    <div className="max-w-screen-xl mx-auto">
      
         {/* contact section */}
         <div className="my-10 py-10 md:my-20 md:py-20">

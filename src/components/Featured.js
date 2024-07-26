@@ -5,7 +5,8 @@ import { MdOutlineBathtub } from "react-icons/md";
 import { FaBed } from "react-icons/fa6";
 export default function Featured() {
   return (
-    <div className="  w-11/12 md:w-3/4 mx-auto py-10">
+   
+        <div className=" max-w-screen-xl mx-auto py-10">
         {/* featured section */}
         <div className="text-center text-gray-900  text-5xl py-10 ">
           <p ><b>Featured Properties</b></p>
@@ -109,5 +110,7 @@ export default function Featured() {
         
         {/* end */}
       </div>
+   
+
   )
 }

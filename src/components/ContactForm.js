@@ -2,7 +2,8 @@ import React from 'react'
 
 export default function ContactForm() {
   return (
-    <div className='grid grid-cols-1 gap-6 md:grid-cols-5 place-content-center w-4/5 mx-auto '>
+    <div className='max-w-screen-xl mx-auto'>
+        <div className='grid grid-cols-1 gap-6 md:grid-cols-5 place-content-center  py-10 '>
     <div className="col-span-3 ">
         <img src="8074.png" className='rounded-t-3xl'></img>
     </div>
@@ -25,5 +26,6 @@ export default function ContactForm() {
                     <button type="submit" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
                 </form></div>
      </div>
+    </div>
   )
 }
