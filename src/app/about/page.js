@@ -4,11 +4,12 @@ import Work from '@/components/Work'
 import Background from '@/components/Background'
 import Contact from '@/components/Contact'
 import Footer from '@/components/Footer'
-import Hero2 from '@/components/Hero2'
+import Herosecond from '@/components/HeroSecond'
+
 export default function page() {
   return (
     <>
-    <Hero2/>
+  <Herosecond/>
    <About/>
    <Work/>
    <Background/>
