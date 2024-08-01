@@ -13,6 +13,9 @@ export default function Home() {
      <Hero/>
       <About />
       <Work />
+      <div className="text-center text-gray-900  text-5xl py-10 ">
+          <p ><b>Featured Properties</b></p>
+        </div>
       <Featured />
       <Background />
 

@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
   return (
-    <div className="w-11/12 md:w-3/4 mx-auto py-10">
+    <div className=" max-w-screen-xl mx-auto py-10">
     {/* About section */}
 
     <div className="grid grid-cols-1 gap-6  md:grid-cols-5  py-5 my-10 ">
