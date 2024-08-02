@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export default function ContactForm() {
@@ -5,7 +6,7 @@ export default function ContactForm() {
     <div className='max-w-screen-xl mx-auto'>
         <div className='grid grid-cols-1 gap-6 md:grid-cols-5 place-content-center  py-10 '>
     <div className="col-span-3 ">
-        <Image src="8074.png" className='rounded-t-3xl'></Image>
+        <Image src="8074.png" alt=''  className='rounded-t-3xl'></Image>
     </div>
     <div className='flex md:justify-start justify-center items-center col-span-2'> <form className="w-4/5 ">
     <p className="text-4xl mb-5 bloack">Get in Touch!</p>
