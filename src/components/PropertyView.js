@@ -14,20 +14,20 @@ export default function PropertyView() {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-2'>
                 {/* 1 column */}
                 <div>
-                    <Image src='2.jpg ' alt='' className='w-full'></Image>
+                    <Image src='/2.jpg' width={100} height={100} alt='' className='w-full'></Image>
                 </div>
 
 
                 {/* 2 column */}
                 <div className='grid grid-rows-2 gap-2'>
                     <div className='grid grid-cols-2 gap-2'>
-                        <Image src='2.jpg' alt=''></Image>
-                        <Image src='2.jpg' alt=''></Image>
+                        <Image width={100} height={100} src='/2.jpg' alt=''></Image>
+                        <Image width={100} height={100} src='/2.jpg' alt=''></Image>
 
                     </div>
                     <div className='grid grid-cols-2 gap-2'>
-                        <Image src='2.jpg' alt='' ></Image>
-                        <Image src='2.jpg' alt=''></Image>
+                        <Image width={100} height={100} src='/2.jpg' alt='' ></Image>
+                        <Image width={100} height={100} src='/2.jpg' alt=''></Image>
 
                     </div>
                 </div>

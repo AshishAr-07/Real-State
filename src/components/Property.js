@@ -4,9 +4,9 @@ import Featured from './Featured';
 export default function Property() {
   return (
    <>
-    <Featured/>
-    <Featured/>
-    <Featured/>
+    <Featured rate="$200"/>
+    <Featured  />
+    <Featured  />
    </>
     
   )

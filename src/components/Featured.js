@@ -2,7 +2,7 @@ import React from 'react'
 import { IoStar } from "react-icons/io5";
 import Image from 'next/image'
 import { IoLocationSharp } from "react-icons/io5";
-export default function Featured() {
+export default function Featured( props) {
   return (
    
         <div className=" max-w-screen-xl mx-auto py-10">
@@ -19,17 +19,14 @@ export default function Featured() {
               <div className='pb-5'><IoLocationSharp size={25} /></div>
               
             
-              <div className='col-span-4'>$710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</div>
+              <div className='col-span-4'>710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</div>
            
           </div>
-            <div className="grid grid-cols-6 mb-5 py-4 px-4">
+            <div className="flex justify-between mb-5 py-4 px-4">
               
-                <div>Price</div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div>$450</div>
+                <h1>Price</h1>
+                
+              {props.rate}
              
             </div>
             
