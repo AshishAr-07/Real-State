@@ -10,7 +10,7 @@ export default function Featured() {
         
         <div className="grid grid-cols-1 gap-6 md:grid-cols-3 mb-20 pb-10 ">
           <div className='border-2 border-gray-100 rounded-t-3xl hover:shadow-xl'>
-            <img src="2.jpg" className="rounded-t-3xl"></img>
+            <Image src="2.jpg" className="rounded-t-3xl"></Image>
             <p className=" py-4 px-4 " >710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</p>
            
            
@@ -36,7 +36,7 @@ export default function Featured() {
 
           </div>
           <div className='border-2 border-gray-100 rounded-t-3xl hover:shadow-xl'>
-            <img src="2.jpg" className="rounded-t-3xl"></img>
+            <Image src="2.jpg" className="rounded-t-3xl"></Image>
             <p className=" py-4 px-4 " >710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</p>
            <div className='grid grid-cols-8 py-4 px-4 gap-6'>
            <p className='flex justify-start items-center '><IoLocationSharp size={25} /></p>
@@ -66,7 +66,7 @@ export default function Featured() {
 
           </div>
           <div className='border-2 border-gray-100 rounded-t-3xl hover:shadow-xl'>
-            <img src="2.jpg" className="rounded-t-3xl"></img>
+            <Image src="2.jpg" className="rounded-t-3xl"></Image>
             <p className=" py-4 px-4 " >710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA</p>
            <div className='grid grid-cols-8 py-4 px-4 gap-6'>
            <p className='flex justify-start items-center '><IoLocationSharp size={25} /></p>

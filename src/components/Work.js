@@ -15,17 +15,17 @@ export default function Work() {
 
     <div className="grid grid-cols-1 gap-1 md:grid-cols-3 m-10 " >
       <div className="grid place-content-center p-4 ">
-        <img src="house.png " className="w-16 h-16 my-8 mx-auto"></img>
+        <Image src="house.png " className="w-16 h-16 my-8 mx-auto"></Image>
         <p className="text-center text-xl mb-2">Evaluate Property</p>
         <p className="text-center">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
       </div>
       <div className="grid place-content-center p-4">
-        <img src="briefcase.png " className="w-16 h-16 my-8 mx-auto"></img>
+        <Image src="briefcase.png " className="w-16 h-16 my-8 mx-auto"></Image>
         <p className="text-center text-xl mb-2">Meeting with Agents</p>
         <p className="text-center">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
       </div>
       <div className="grid place-content-center p-4">
-        <img src="key.png " className="w-16 h-16 my-8 mx-auto"></img>
+        <Image src="key.png " className="w-16 h-16 my-8 mx-auto"></Image>
         <p className="text-center text-xl mb-2">Close the Deal</p>
         <p className="text-center">If the distribution of letters and 'words' is random, the reader will not be distracted from making.</p>
       </div>

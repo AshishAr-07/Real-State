@@ -7,7 +7,7 @@ export default function About() {
 
     <div className="grid grid-cols-1 gap-6  md:grid-cols-5  py-5 my-10 ">
       <div className="md:col-span-2" >
-        <img src="tailbanner.png" className="rounded md:h-[54vh] "></img>
+        <Image src="tailbanner.png" className="rounded md:h-[54vh] "></Image>
       </div>
       <div className=" text-xl  md:col-span-3 ">
         {/* <p className="text-4xl py-2">
