@@ -24,10 +24,10 @@ export default function Footer() {
               <p> <IoIosArrowForward /> </p><p className="pl-3"><Link href="/about"> About</Link></p>
             </div>
             <div className=" flex justify-start items-center">
-              <p> <IoIosArrowForward /> </p><p className="pl-3"><Link href="/Service">Service</Link></p>
+              <p> <IoIosArrowForward /> </p><p className="pl-3"><Link href="/service">Service</Link></p>
             </div>
             <div className=" flex justify-start items-center">
-              <p> <IoIosArrowForward /> </p><p className="pl-3">Pricing</p>
+              <p> <IoIosArrowForward /> </p><p className="pl-3"><Link href="/singleproperty">View One</Link></p>
             </div>
             <div className=" flex justify-start items-center">
               <p> <IoIosArrowForward /> </p><p className="pl-3">Blog</p>
