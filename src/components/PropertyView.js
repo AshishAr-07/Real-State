@@ -4,6 +4,7 @@ import { MdOutlineBathtub } from "react-icons/md";
 import { FaBed } from "react-icons/fa6";
 import { IoLocationSharp } from "react-icons/io5";
 import { IoStar } from "react-icons/io5";
+import Image from 'next/image';
 export default function PropertyView() {
     return (
 
@@ -13,20 +14,20 @@ export default function PropertyView() {
             <div className='grid grid-cols-1 md:grid-cols-2 gap-2'>
                 {/* 1 column */}
                 <div>
-                    <img src='2.jpg ' className='w-full'></img>
+                    <Image src='2.jpg ' alt='' className='w-full'></Image>
                 </div>
 
 
                 {/* 2 column */}
                 <div className='grid grid-rows-2 gap-2'>
                     <div className='grid grid-cols-2 gap-2'>
-                        <img src='2.jpg' ></img>
-                        <img src='2.jpg'></img>
+                        <Image src='2.jpg' alt=''></Image>
+                        <Image src='2.jpg' alt=''></Image>
 
                     </div>
                     <div className='grid grid-cols-2 gap-2'>
-                        <img src='2.jpg' ></img>
-                        <img src='2.jpg'></img>
+                        <Image src='2.jpg' alt='' ></Image>
+                        <Image src='2.jpg' alt=''></Image>
 
                     </div>
                 </div>
